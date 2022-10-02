@@ -1,0 +1,32 @@
+server:
+  port: 9001
+
+spring:
+  cloud:
+    inetutils:
+      ignoredInterfaces:
+        - VirtualBox.*
+        - Hyper-V.*
+        - Npcap.*
+        - VMware.*
+  datasource:
+    password: test
+    username: root
+    url: jdbc:mysql://localhost:3306/tp_achat?createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+  application:
+    name: PRODUIT-SERVICE
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
