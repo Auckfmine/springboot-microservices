@@ -6,6 +6,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/service-category-produit/pom.xml" />
+        <option value="$PROJECT_DIR$/service-facture/pom.xml" />
+        <option value="$PROJECT_DIR$/service-fournisseur/pom.xml" />
+        <option value="$PROJECT_DIR$/service-operateur/pom.xml" />
+        <option value="$PROJECT_DIR$/service-reglement/pom.xml" />
+        <option value="$PROJECT_DIR$/service-secteur-actitivte/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="openjdk-18" project-jdk-type="JavaSDK" />
 </project>

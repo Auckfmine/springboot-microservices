@@ -21,30 +21,6 @@ spring:
           uri: lb://STOCK-SERVICE
           predicates:
             - Path=/stock/**
-        - id: FACTURE-SERVICE
-          uri: lb://FACTURE-SERVICE
-          predicates:
-            - Path=/facture/**
-        - id: FOURNISSEUR-SERVICE
-          uri: lb://FOURNISSEUR-SERVICE
-          predicates:
-            - Path=/fournisseur/**
-        - id: OPERATEUR-SERVICE
-          uri: lb://OPERATEUR-SERVICE
-          predicates:
-            - Path=/operateur/**
-        - id: REGLEMENT-SERVICE
-          uri: lb://REGLEMENT-SERVICE
-          predicates:
-            - Path=/reglement/**
-        - id: SECTEUR-ACTIVITE-SERVICE
-          uri: lb://SECTEUR-ACTIVITE-SERVICE
-          predicates:
-            - Path=/secteur-activite/**
-        - id: CATEGORIE-PRODUIT-SERVICE
-          uri: lb://CATEGORIE-PRODUIT-SERVICE
-          predicates:
-            - Path=/categorie-produit/**
 eureka:
   client:
     register-with-eureka: true

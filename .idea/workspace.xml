@@ -4,7 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2eaee73-d6ab-4c15-93ab-9636471c6174" name="Changes" comment="implementation service-categorie-produit" />
+    <list default="true" id="e2eaee73-d6ab-4c15-93ab-9636471c6174" name="Changes" comment="implementation service-categorie-produit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/controllers/CategorieProduitController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/dto/CategoryProduitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/entities/Base/AbstractEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/entities/CategoryProduit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/exceptions/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/repositories/ICategoryProduitRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/services/implementation/CategoryProduitImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/services/interfaces/ICategoryProduitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/src/main/java/com/microservices/controllers/FactureController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-facture/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/java/com/microservices/controllers/FournisseurController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/java/com/microservices/controllers/OperateurController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/controllers/ReglementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/dto/ReglementDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/entities/Base/AbstractEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/entities/Reglement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/exceptions/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/repositories/IReglementRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/services/implementation/ServiceReglementImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/services/interfaces/IReglementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/java/com/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/java/com/microservices/controllers/SecteurActiviteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,24 +97,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_opened_file_path": "C:/Users/mouha/Desktop/tpAchatProject",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "spring.configuration.checksum": "60d12921b80e7e051ec7bf41791592ea"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mouha/Desktop/projects/devops/springboot-microservices&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0f4fa712bf98b0b9287f7f51488a0f94&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\api-gateway" />
@@ -251,6 +308,11 @@
       <workItem from="1664579921309" duration="11013000" />
       <workItem from="1664626417004" duration="9512000" />
       <workItem from="1664736057438" duration="1213000" />
+      <workItem from="1668016552370" duration="977000" />
+      <workItem from="1668040670608" duration="2781000" />
+      <workItem from="1668080657323" duration="624000" />
+      <workItem from="1668129149713" duration="208000" />
+      <workItem from="1668169932039" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="implementation service-produit">
       <created>1664580175696</created>

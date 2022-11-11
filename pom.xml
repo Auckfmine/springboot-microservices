@@ -13,14 +13,9 @@
     <modules>
         <module>service-produit</module>
         <module>service-stock</module>
-        <module>service-facture</module>
-        <module>service-fournisseur</module>
-        <module>service-operateur</module>
-        <module>service-secteur-actitivte</module>
-        <module>service-reglement</module>
         <module>eureka-service</module>
         <module>api-gateway</module>
-        <module>service-category-produit</module>
+
     </modules>
     <groupId>com.microservices</groupId>
     <artifactId>tpAchatServices</artifactId>
