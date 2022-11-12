@@ -22,7 +22,6 @@ public class ProduitDto {
         }
         return Produit.builder()
                 .id(dto.id)
-                .idCategory(dto.idStock)
                 .prix(dto.prix)
                 .libelleProduit(dto.libelleProduit)
                 .codeProduit(dto.codeProduit)
@@ -41,7 +40,6 @@ public class ProduitDto {
                 .id(produit.getId())
                 .codeProduit(produit.getCodeProduit())
                 .libelleProduit(produit.getLibelleProduit())
-                .idCategory(produit.getIdCategory())
                 .idStock(produit.getIdStock())
                 .prix(produit.getPrix())
                 .build();

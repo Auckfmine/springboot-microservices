@@ -33,7 +33,6 @@ public class ProduitServiceImpl implements IProduitService {
                 .libelleProduit(p.getLibelleProduit())
                 .prix(p.getPrix())
                 .idStock(null)
-                .idCategory(null)
                 .build();
         log.info(" in method addProduit : product created successfully !");
         return repository.save(produit);
@@ -87,7 +86,7 @@ public class ProduitServiceImpl implements IProduitService {
                     if(checkIfStockExists(idStock)){
                         produit.setIdStock(idStock);
                     } else {
-                       throw new ResourceNotFoundException("stock avec l'id :"+idProduit+" est introuvable");
+                       throw new ResourceNotFoundException("stock avec l'id :"+idStock+" est introuvable");
                     }
                     return produit;
                 })

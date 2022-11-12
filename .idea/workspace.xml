@@ -4,63 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2eaee73-d6ab-4c15-93ab-9636471c6174" name="Changes" comment="implementation service-categorie-produit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e2eaee73-d6ab-4c15-93ab-9636471c6174" name="Changes" comment="prepare code for medium article">
+      <change afterPath="$PROJECT_DIR$/service-produit/src/test/java/com/microservices/ProductServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-stock/src/test/java/com/microservices/StockServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/controllers/CategorieProduitController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/dto/CategoryProduitDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/entities/Base/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/entities/CategoryProduit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/repositories/ICategoryProduitRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/services/implementation/CategoryProduitImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/java/com/microservices/services/interfaces/ICategoryProduitService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-category-produit/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/src/main/java/com/microservices/controllers/FactureController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-facture/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/java/com/microservices/controllers/FournisseurController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fournisseur/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/java/com/microservices/controllers/OperateurController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-operateur/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/controllers/ReglementController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/dto/ReglementDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/entities/Base/AbstractEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/entities/Reglement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/exceptions/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/repositories/IReglementRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/services/implementation/ServiceReglementImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/java/com/microservices/services/interfaces/IReglementService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-reglement/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/java/com/microservices/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/java/com/microservices/controllers/SecteurActiviteController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-secteur-actitivte/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-stock/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/dto/ProduitDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/dto/ProduitDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/entities/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/entities/Produit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/services/implementation/ProduitServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-produit/src/main/java/com/microservices/services/implementation/ProduitServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/controllers/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/controllers/StockController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/dto/StockDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/dto/StockDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/services/implementation/ServiceStockImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/services/implementation/ServiceStockImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/services/interfaces/IServiceStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-stock/src/main/java/com/microservices/services/interfaces/IServiceStock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,29 +59,30 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TF_FMT&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mouha/Desktop/projects/devops/springboot-microservices&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mouha/Desktop/projects/devops/springboot-microservices/service-stock/src&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0f4fa712bf98b0b9287f7f51488a0f94&quot;
+    &quot;spring.configuration.checksum&quot;: &quot;56ef367bde56ad1aaaa8b26025115b1f&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mouha\Desktop\projects\devops\springboot-microservices\service-stock\src" />
       <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\api-gateway" />
       <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\service-stock" />
       <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\service-secteur-actitivte" />
       <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\service-reglement" />
-      <recent name="C:\Users\mouha\Desktop\projects\devops\Devops\service-produit" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.microservices" />
       <recent name="com.microservices.exceptions" />
       <recent name="com.microservices.entities.Base" />
       <recent name="com.microservices.controllers" />
-      <recent name="com.microservices" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -137,7 +92,85 @@
       <command value="mvn install" />
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="JUnit.ProductServiceTest">
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-produit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.StockServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceTest.testAddStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.StockServiceTest" />
+      <option name="METHOD_NAME" value="testAddStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceTest.testRetreiveAllStocks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.StockServiceTest" />
+      <option name="METHOD_NAME" value="testRetreiveAllStocks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockServiceTest.testUpdateStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service-stock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.microservices.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.microservices" />
+      <option name="MAIN_CLASS_NAME" value="com.microservices.StockServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="service-fournisseur" />
       <method v="2">
@@ -221,73 +254,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.adminer: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="adminer" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.api-getway: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="api-getway" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="db" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="docker-compose.yml.eureka: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="eureka" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.adminer: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.eureka: Compose Deployment" />
-        <item itemvalue="Docker.docker-compose.yml.api-getway: Compose Deployment" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.StockServiceTest" />
+        <item itemvalue="JUnit.StockServiceTest.testAddStock" />
+        <item itemvalue="JUnit.StockServiceTest.testRetreiveAllStocks" />
+        <item itemvalue="JUnit.StockServiceTest.testUpdateStock" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +285,9 @@
       <workItem from="1668040670608" duration="2781000" />
       <workItem from="1668080657323" duration="624000" />
       <workItem from="1668129149713" duration="208000" />
-      <workItem from="1668169932039" duration="266000" />
+      <workItem from="1668169932039" duration="3328000" />
+      <workItem from="1668265513685" duration="1824000" />
+      <workItem from="1668287815864" duration="837000" />
     </task>
     <task id="LOCAL-00001" summary="implementation service-produit">
       <created>1664580175696</created>
@@ -342,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664634180414</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="prepare code for medium article">
+      <created>1668170237372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668170237372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +346,7 @@
     <MESSAGE value="implementation service-stock" />
     <MESSAGE value="implementation service-reglement" />
     <MESSAGE value="implementation service-categorie-produit" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation service-categorie-produit" />
+    <MESSAGE value="prepare code for medium article" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare code for medium article" />
   </component>
 </project>

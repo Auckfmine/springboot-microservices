@@ -1,5 +1,6 @@
 package com.microservices.services.implementation;
 
+import com.microservices.dto.StockDto;
 import com.microservices.entities.Stock;
 import com.microservices.exceptions.ResourceNotFoundException;
 import com.microservices.repositories.IStockRepository;
@@ -22,24 +23,25 @@ public class ServiceStockImpl implements IServiceStock {
 
 
     @Override
-    public Set<Stock> retrieveAllStocks() {
+    public Set<StockDto> retrieveAllStocks() {
         log.info("In method retrieveAllStocks");
-        return repository
+        var list = repository
                 .findAll()
                 .stream()
                 .peek(stock -> log.info(" Stock : " + stock))
                 .collect(Collectors.toSet());
+        return StockDto.fromEntityList(list);
     }
 
     @Override
-    public Stock addStock(Stock s) {
+    public StockDto addStock(StockDto s) {
         long start = System.currentTimeMillis();
         log.info("In method retrieveAllStocks of serviceStock");
-        Stock stock = repository.save(s);
+        Stock stock = repository.save(StockDto.toEntity(s));
         log.info("out of method addStock serviceStock");
         long elapsedTime = System.currentTimeMillis() - start;
         log.info("Method execution time: " + elapsedTime + " milliseconds.");
-        return stock;
+        return StockDto.toDto(stock);
     }
 
     @Override
@@ -62,7 +64,7 @@ public class ServiceStockImpl implements IServiceStock {
     }
 
     @Override
-    public Stock updateStock(Stock s) {
+    public StockDto updateStock(StockDto s) {
         long start = System.currentTimeMillis();
         log.info("In method updateStock");
         //check if stock object contains id otherwise repository.save will create a new stock
@@ -71,12 +73,12 @@ public class ServiceStockImpl implements IServiceStock {
             throw new IllegalArgumentException("stock object must container id field in order to update it successfully ");
         }
         //if every thing is fine then we perform our update
-        Stock updatedStock = repository.save(s);
+        Stock updatedStock = repository.save(StockDto.toEntity(s));
         //calculate method execution time
         log.info("out of method updateStock");
         long elapsedTime = System.currentTimeMillis() - start;
         log.info("Method execution time: " + elapsedTime + " milliseconds.");
-        return updatedStock;
+        return StockDto.toDto(updatedStock);
     }
 
     @Override

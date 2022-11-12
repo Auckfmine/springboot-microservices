@@ -19,7 +19,6 @@ public class Produit extends AbstractEntity {
     private String libelleProduit;
     private Float prix;
     private Long idStock;
-    private Long idCategory;
 
 
 }

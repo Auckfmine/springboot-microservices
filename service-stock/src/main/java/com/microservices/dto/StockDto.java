@@ -5,6 +5,11 @@ import com.microservices.exceptions.ResourceNotFoundException;
 import lombok.Builder;
 import lombok.Data;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 @Builder
 @Data
 public class StockDto {
@@ -39,5 +44,13 @@ public class StockDto {
                 .qte(stock.getQte())
                 .qteMin(stock.getQteMin())
                 .build();
+    }
+
+    public static Set<StockDto> fromEntityList(Set<Stock> stocks) {
+        Set<StockDto> list = new HashSet<>();
+        stocks.forEach(stock -> list.add(StockDto.toDto(stock)));
+        return list ;
+
+
     }
 }

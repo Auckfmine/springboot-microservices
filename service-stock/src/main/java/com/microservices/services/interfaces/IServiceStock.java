@@ -1,16 +1,17 @@
 package com.microservices.services.interfaces;
 
+import com.microservices.dto.StockDto;
 import com.microservices.entities.Stock;
 import java.util.Set;
 
 public interface IServiceStock {
-    Set<Stock> retrieveAllStocks();
+    Set<StockDto> retrieveAllStocks();
 
-    Stock addStock(Stock s);
+    StockDto addStock(StockDto s);
 
     void deleteStock(Long id);
 
-    Stock updateStock(Stock u);
+    StockDto updateStock(StockDto u);
 
     Stock retrieveStock(Long id);
 

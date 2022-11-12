@@ -22,11 +22,8 @@ public class StockController {
     @GetMapping("/retrieve-all-stocks")
     @ResponseBody
     public Set<StockDto> getStocks() {
-        Set<StockDto> stocks = new HashSet<>();
-          serviceStock
-                  .retrieveAllStocks()
-                  .forEach(stock -> stocks.add(StockDto.toDto(stock)));
-        return stocks;
+        return new HashSet<>(serviceStock
+                .retrieveAllStocks());
     }
 
     @GetMapping("/retrieve-stock/{stock-id}")
@@ -39,7 +36,7 @@ public class StockController {
     @PostMapping("/add-stock")
     @ResponseBody
     public StockDto addStock(@RequestBody StockDto s) {
-        return StockDto.toDto(serviceStock.addStock(StockDto.toEntity(s)));
+        return serviceStock.addStock(s);
     }
 
 
@@ -52,7 +49,7 @@ public class StockController {
     @PutMapping("/modify-stock")
     @ResponseBody
     public StockDto modifyStock(@RequestBody StockDto stockDto) {
-        return StockDto.toDto(serviceStock.updateStock(StockDto.toEntity(stockDto)));
+        return serviceStock.updateStock(stockDto);
     }
 
     /*
